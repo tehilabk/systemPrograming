@@ -3,16 +3,20 @@
 
 
 double Exponent (int x){
-double result = 1;
+    
+    double result = 1;
+    const double e = 2.7182;
+
     while (x>0){
-        result *= 2.71828182846;
+        result *= e;
         x--;
-}
-return result;
+    }
+    return result;
 }
 
 double Power (double x, int y){
-double result = 1;
+    
+    double result = 1;
     while (y>0){
         result *= x;
         y--;
